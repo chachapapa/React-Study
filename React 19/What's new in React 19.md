@@ -5,7 +5,7 @@ A common use case in React apps is to perform a data mutation and then update st
 
 For example, you could handle the pending and error state in `useState`:
 
-> React 애플리케이션에서 흔히 발생하는 사용 사례는 데이터를 변경하고 그에 따라 상태를 업데이트하는 것입니다. 예를 들어, 사용자가 이름을 변경하기 위해 폼을 제출하면, API 요청을 수행하고 응답을 처리해야 합니다. 과거에는 대기(pending), 오류, 낙관적 업데이트(optimistic update) 및 순차적 요청을 수동으로 처리해야 했습니다.
+> React 애플리케이션에서 주로 사용하는 경우는 데이터를 변경하고 그에 따라 상태를 업데이트하는 것입니다. 예를 들어, 사용자가 이름을 변경하기 위해 폼을 제출하면, API 요청을 수행하고 응답을 처리해야 합니다. 과거에는 대기(pending), 오류, 낙관적 업데이트(optimistic update) 및 순차적 요청을 수동으로 처리해야 했습니다.
 >
 > 예를 들어, `useState`를 사용하여 대기 상태와 오류 상태를 처리할 수 있습니다:
 
